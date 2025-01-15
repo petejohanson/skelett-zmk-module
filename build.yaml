@@ -18,3 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: novelkeys_skelett40
+  - board: novelkeys_skelett40
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: skelett40_zmk_studio

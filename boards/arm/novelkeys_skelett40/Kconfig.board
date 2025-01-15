@@ -1,0 +1,6 @@
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_NOVELKEYS_SKELETT40
+    bool "NovelKeys Skelett40"
+    depends on SOC_STM32F072XB
